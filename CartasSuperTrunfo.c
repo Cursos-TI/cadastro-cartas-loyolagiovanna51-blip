@@ -19,7 +19,7 @@ int main() {
   printf("=== Cadastro da Carta 1 ===\n");
 
   printf("Digite o estado (A a H):");
-  scanf("%c", &estado1);
+  scanf(" %c", &estado1);
 
   printf("Digite o codigo da carta: ");
   scanf(" %[^\n]", codigo1);
@@ -61,13 +61,13 @@ int main() {
   printf("=== Cadastro da Carta 2 ===\n");
 
   printf("Digite o estado (A a H):");
-  scanf("%c", &estado2);
+  scanf(" %c", &estado2);
 
   printf("Digite o codigo da carta: ");
   scanf(" %[^\n]", codigo2);
 
   printf("Digite o nome da cidade: ");
-  scanf(" %s[^\n]", cidade2);
+  scanf(" %[^\n]", cidade2);
 
   printf("Digite a populacao: ");
   scanf("%d", &populacao2);
